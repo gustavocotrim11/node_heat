@@ -24,10 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 > Obs.: Nesse projeto temos autenticação via OAuth com o GitHub
 
 - Clone o repositório e acesse a pasta;
-- Crie um arquivo `.env` e preencha com as suas credenciais do GitHub e com um hash MD5 por exemplo, como uma jwt secret: 
-	GITHUB_CLIENT_SECRET
-	GITHUB_CLIENT_ID
-	JWT_SECRET
+- Crie um arquivo `.env` e preencha com as suas credenciais do GitHub, GITHUB_CLIENT_SECRET e GITHUB_CLIENT_ID, e com um hash MD5 por exemplo, como JWT_SECRET;
 - Instale as dependências com `yarn`;
 - Executa as migrations com `yarn prisma migrate dev`;
 - Inicie o servidor com `yarn dev`;
